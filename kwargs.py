@@ -1,0 +1,13 @@
+'''def intro(**data):
+    print("\nData type of argument:",type(data))
+
+    for key, value in data.items():
+        print("{} is {}".format(key,value))
+
+intro(Firstname="Sita", Lastname="Sharma", Age=22, Phone=1234567890)
+intro(Firstname="John", Lastname="Wood", Email="johnwood@nomail.com", Country="Wakanda", Age=25, Phone=9876543210)'''
+def hello(city,area,**number):
+    print(city," ",area,"  ",number)
+    '''for key,value in number.items():
+        print(key," ",value)'''
+hello("Nairobi","Milema",first="sally",last="wacie",)
